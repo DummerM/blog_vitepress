@@ -1,7 +1,7 @@
 import path from 'node:path'
 import fs from 'node:fs'
 import matter from 'gray-matter';
-import { default_navList } from '../config'
+// import { default_navList } from '../config'
 // 文件根目录
 const DIR_PATH = path.resolve()
 // 白名单,过滤不是文章的文件和文件夹
@@ -16,7 +16,7 @@ const intersections = (arr1, arr2) => Array.from(new Set(arr1.filter((item) => !
 
 // 把方法导出直接使用
 function getList(params, path1, pathname) {
-    console.log('===>', params, path1)
+    // console.log('===>', params, path1)
     // 存放结果
     const res = []
     // 开始遍历params
@@ -59,7 +59,7 @@ function getList(params, path1, pathname) {
             })
         }
     }
-    console.log('res:', res)
+    // console.log('res:', res)
     return res
 }
 

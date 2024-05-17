@@ -5,7 +5,9 @@ layout: home
 hero:
   name: "xingfangfang"
   text: "bolg"
-#   image: "/imgs/bg.svg"
+  image: 
+    src: "/imgs/bg.svg"
+    style: "height: 100vh;width: 100vw;maxHeight: 100vh !important;maxWidth: 100vw !important;"
   tagline: If I sleep now, I will dream — but if I study now, I will make my dreams come true.
   actions:
     - theme: brand

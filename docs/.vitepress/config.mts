@@ -1,5 +1,5 @@
 import { defineConfig } from "vitepress";
-import { set_sidebar, set_nav } from './utils.js'
+import { set_sidebar } from './utils.js'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -7,6 +7,9 @@ export default defineConfig({
   description: "bolg",
   lastUpdated: true,
   cleanUrls: true,
+  markdown: {
+    lineNumbers: true
+  },
   themeConfig: {
     logo: "/imgs/avatar.png",
     siteTitle: "心方方",
