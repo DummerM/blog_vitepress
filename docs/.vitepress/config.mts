@@ -11,6 +11,10 @@ export default defineConfig({
     lineNumbers: true
   },
   themeConfig: {
+    editLink: {
+      pattern: 'https://github.com/DummerM/blog_vitepress/tree/main/docs/:path',
+      text: 'Edit this page on GitHub'
+    },
     logo: "/imgs/avatar.png",
     siteTitle: "心方方",
     search: {

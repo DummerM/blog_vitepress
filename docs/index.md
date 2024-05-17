@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: "xingfangfangのblog"
+  name: "xingfangfang の blog"
   text: " "
   image: 
     src: "/imgs/bg.svg"
@@ -18,10 +18,10 @@ hero:
     #   link: /api-examples
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: 学海无涯 | Learning
+    details: 启航于知识的浩瀚波涛，追寻心智启迪的星辰
+  - title: 岁月留痕 | Recording
+    details: 记录成长的足迹，编织记忆的经纬，铸就独一无二的岁月章篇
+  - title: 知识共鸣 | Sharing
+    details: 思维的琴弦轻拨，共享认知的涟漪，构建共情与启迪的桥梁
 ---
