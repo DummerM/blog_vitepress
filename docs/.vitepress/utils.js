@@ -54,7 +54,7 @@ function getList(params, path1, pathname) {
             // console.log(data);
 
             res.push({
-                text: data.title,
+                text: data.title || name.slice(0,-3),
                 link: `/${pathname}/${name}`
             })
         }

@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: "xingfangfang の blog"
+  name: "xinfangfang の blog"
   text: " "
   image: 
     src: "/imgs/bg.svg"

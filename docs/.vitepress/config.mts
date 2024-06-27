@@ -3,10 +3,11 @@ import { set_sidebar } from './utils.js'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "xinfangfang",
+  title: "心方方的博客",
   description: "bolg",
   lastUpdated: true,
   cleanUrls: true,
+  head: [['link', { rel: 'icon', href: '/imgs/avatar.png' }]],
   markdown: {
     lineNumbers: true
   },
